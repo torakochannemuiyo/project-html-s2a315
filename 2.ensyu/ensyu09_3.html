@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+ <head>
+  <meta charset="utf-8" />
+  <meta  name="viewport"   content="width=device-width,initial-scale=1.0" />
+  <title>学生情報登録 1</title>
+ </head>
+
+ <body>
+  <h2>学生情報登録2</h2>
+ <p>必要事項を記入して登録ボタンを押してください。</p>
+ <br />
+ <form action="#">
+<P>学籍番号</P>
+<input type="number" name="studentid" />
+<p>氏名</p>
+<input type="text" name="username" />
+<p>電話番号</p>
+<input type="tel" name="tel" />
+<P>生年月日</P>
+<input type="date" name="birthday" />
+<p>メール</p>
+<input type="email" name="mail">
+<p>性別</p>
+<input type="radio" name="gender" value="男" checked />
+<span>男</span>
+<input type="radio" name="gender" value="女" id="woman">
+<span>女</span>
+<P>学科</P>
+<serect name="course"
+ <option selected value="情報大学併学科">情報大学併学科</option>
+ <option value="システムエンジニア科">システムエンジニア科</option>
+ <option value="ITシステム科">ITシステム科</option>
+ </select>
+
+ <p>受講科目（複数選択可）</p>
+ <spann><input type="checkbox" name="subject" value="HTML"/>HTML</spann>
+ <spann><input type="checkbox" name="subject" value="Java"/>Java</spann>
+ <spann><input type="checkbox" name="subject" value="SQL"/>SQL</spann>
+ <spann><input type="checkbox" name="subject" value="国体"/>国対</spann>
+ <p>備考</p>
+<textarea name="remarks" cols = "40" rows="4"　maxlength="40"></textarea>
+<br />
+<input type="submit"　onclick="alert('send now!'); return falase;" value="登録"　/>
+<input typr="reset" value="クリア" />
+</form>
+</body>
+</html>

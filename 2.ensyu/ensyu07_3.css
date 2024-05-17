@@ -1,0 +1,13 @@
+table{
+  font-size: 1.2rem;
+}
+ tr:nth-child(odd) {
+  background-color: #fff;
+}
+th{
+ padding: 10px;
+ text-algin: left;
+}
+ td{
+  padding: 10px;
+}
